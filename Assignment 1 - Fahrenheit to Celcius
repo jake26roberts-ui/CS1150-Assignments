@@ -1,1 +1,14 @@
-
+public class RobertsJacobAssignment1 {
+	public static void main(String[] args) {
+		System.out.println("Fahrenheit to Celsius Conversion Table");
+		System.out.println(" Fahrenheit               Celsius ");
+		
+		System.out.println("---------------------------------------------");
+		
+		//This is a scalable version of my first set of code.
+		for (double i = 0; i <= 100; i += 10) {
+			double celsius = (i - 32)*5/9;
+			System.out.println("     " + (int)i + "            " + celsius);
+		} //end of for-loop
+  } //end of main
+} //end of class
